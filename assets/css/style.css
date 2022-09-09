@@ -47,9 +47,10 @@ body {
 }
 @media (min-width: 100px) and (max-width: 1000px) {
   .section-title>#resumes{
-    width: 40%;
+    width: 70%;
   }
 }
+
 
 
 
