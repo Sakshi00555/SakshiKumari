@@ -867,6 +867,11 @@ footer {
    justify-content: space-around;
 
 }
+#contact>div>div>div>div{
+  /* border: 1px solid red; */
+
+height: 25%;
+}
 #contact>h1{
     text-align: center;
     color: grey;
