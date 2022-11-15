@@ -1,3 +1,4 @@
+// ========================tech list==================
 const techs = ['JavaScript', 'Java', 'SpringBoot', 'AWS','PostMan','Html','CSS','Hibernate'];
 
 const descTechs = document.querySelectorAll('.tech');
@@ -5,7 +6,7 @@ const descTechs = document.querySelectorAll('.tech');
 descTechs.forEach(function(value, key){
     value.textContent = techs[key];
 });
-
+// =======================social links====================
 const socialLinks = ['https://www.linkedin.com/in/sakshi-kumari-202282214/', 'https://github.com/sakshi00555', 'https://www.instagram.com/___sakshi_k__/', 'https://twitter.com/Sakshi00555'];
 
 const socialIcons = document.querySelectorAll('.social-links a');
@@ -14,7 +15,7 @@ socialIcons.forEach(function(value, key) {
     value.href = socialLinks[key];
 })
 
-
+// ====================projects section==============================
 
 const projects = [
     {
@@ -71,7 +72,7 @@ projectStacks.forEach(function(value, key) {
     value.textContent = totalProjectStack[key];
 })
 
-
+// =======================navbar========================
 const openBtn = document.querySelector('.open')
 const closeBtn = document.querySelector('.close')
 const navItemsOpen = document.querySelector('.nav-items-open');

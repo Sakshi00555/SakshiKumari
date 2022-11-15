@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
-
+/* navbar starts from here */
 *,
 *::after,
 *::before {
@@ -242,8 +242,8 @@ a {
     color: var(--color-text-primary);
     display: none;
 }
-
-/* home section  */
+/* navbar starts end here */
+/* home section start here  */
 
 #home {
     background-color: var(--color-primary);
@@ -450,7 +450,9 @@ a {
         text-align: right;
     }
 }
+/* home section ends here */
 
+/* about section start here */
 #about {
     background-color: var(--color-primary-dark);
 }
@@ -578,8 +580,9 @@ a {
         font-size: 1.2rem;
     }
 }
+/* about section end here */
 
-/* projects section  */
+/* projects section start here */
 
 #projects {
     background-color: var(--color-primary-dark);
@@ -710,6 +713,7 @@ a {
         width: 66%;
     }
 }
+/* projects section start here */
 
 /* testimonials section  */
 
@@ -718,174 +722,13 @@ a {
     position: relative;
 }
 
-.testimonials {
-    height: 91vh;
-    padding-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
 
-.testimonials .btn-l {
-    margin-top: 130px;
-    width: 100%;
-}
-
-@media (min-width: 450px) {
-    .testimonials .btn-l {
-        width: 250px;
-    }
-}
-
-.swiper {
-    width: 70%;
-    gap: -100px;
-}
-
-.swiper-wrapper {
-    margin-top: -100px;
-    height: 40%;
-    padding-bottom: 4rem;
-}
-
-.swiper-slide {
-    border: 1px solid var(--color-text-gold);
-    padding-top: 10px;
-    height: 350px;
-    display: grid;
-    grid-auto-flow: column;
-    grid-template-rows: 7fr 3fr;
-}
-
-.top {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 70px;
-}
-
-.message {
-    width: 80%;
-    margin: 0 auto;
-    color: var(--color-text-primary);
-}
-
-.top img {
-    width: 25px;
-    padding-left: 10px;
-}
-
-.bottom {
-    position: relative;
-    background-color: var(--color-text-gold);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.bottom p {
-    font-family: 'Architects Daughter', cursive;
-    color: black;
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.profile-block {
-    position: absolute;
-    font-size: 10px;
-    top: -35px;
-    width: 70px;
-    height: 70px;
-    background-color: var(--color-text-gold);
-    border-radius: 50%;
-}
-
-.profile-block img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
-.swiper-pagination-bullet {
-    background-color: var(--color-text-gold);
-}
-
-.write-block {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 10000;
-    display: none;
-}
-
-.write {
-    height: 500px;
-    position: relative;
-    width: 100%;
-    background-color: var(--color-primary);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin: auto;
-}
-
-.write i {
-    position: absolute;
-    color: white;
-    right: 20px;
-    top: 20px;
-    cursor: pointer;
-    font-size: 20px;
-}
-
-.write label {
-    color: var(--color-text-primary);
-}
-
-.write input {
-    height: 50px;
-    width: 70%;
-    opacity: 0.6;
-    outline: none;
-    padding: 10px;
-    font-size: 1.1rem;
-    border-radius: 3px;
-}
-
-.write textarea {
-    height: 200px;
-    width: 250px;
-    opacity: 0.6;
-    padding: 10px;
-    outline: none;
-    border-radius: 3px;
-    margin-bottom: 10px;
-}
-
-@media (min-width: 500px) {
-    .write {
-        width: 450px;
-    }
-
-    .write textarea {
-        width: 350px;
-        height: 100px;
-    }
-}
-
-#contact {
-    background-color: var(--color-primary-dark);
-}
 
 /*==================== CONTACT ME ====================*/
+
+#contact {
+  background-color: var(--color-primary-dark);
+}
 .contact__container {
     row-gap: 3rem;
     
@@ -1039,42 +882,8 @@ footer {
 
 
 
---------------------------------------------------------------*/
-.interests .icon-box {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  background: rgba(255, 255, 255, 0.08);
-  transition: ease-in-out 0.3s;
-}
-
-.interests .icon-box i {
-  font-size: 32px;
-  padding-right: 10px;
-  border: 1px solid red;
-  line-height: 1;
-}
-#emoji{
-  text-align: center;
-}
-
-.interests .icon-box h3 {
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-size: 16px;
-  color: #fff;
-}
-
-.interests .icon-box:hover {
-  background: rgba(255, 255, 255, 0.12);
-}
-
-
-
 /*--------------------------------------------------------------
-# Services
+# skills related service icon start from here
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
@@ -1250,10 +1059,7 @@ footer {
   }
   
   @media (max-width:600px){
-    #contact>div{
-      display: flex;
-      border: 1px red;
-  }
+   
       
   
   #contact{
@@ -1268,10 +1074,7 @@ footer {
       margin: auto;
       display: grid;
       color: white;
-      /* justify-content: center; */
-      /* background-color: red; */
-  
-     /* justify-content: space-around; */
+     
   
   }
     
@@ -1498,7 +1301,6 @@ footer {
 }
 
 
-/*==================== MEDIA QUERIES STARTS====================*/
 /* For small devices */
 @media screen and (max-width: 380px) {
   
