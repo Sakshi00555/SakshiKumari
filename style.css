@@ -835,7 +835,7 @@ footer {
 
  
 
-#advantage {
+#statistics {
     background-color: var(--color-primary);
     height: max-content;
 
@@ -1279,6 +1279,9 @@ height: 25%;
     }
   }
   
+  #statistics{
+    background-color: ;
+  }
   /* skills ends  */
 
   /*==================== github stats ====================*/
